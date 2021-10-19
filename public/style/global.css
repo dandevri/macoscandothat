@@ -40,6 +40,10 @@ section {
   padding: 2.2em;
   border-radius: 25px;
   margin-bottom: 1em;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  position: relative;
 }
 
 section a {
@@ -66,10 +70,18 @@ section p {
   width: 40vw;
 }
 
-section > * + * {
+section div > * + * {
   margin-top: 1.5rem;
 }
 
 small {
   font-weight: 600
+}
+
+section span {
+  font-size: 10vw;
+  position: absolute;
+  top: 0;
+  opacity: 10%;
+  font-weight: 600;
 }
